@@ -6,7 +6,12 @@
     class RoomsController extends Controller 
     {    
 
-        /* some text to ... */
+        /* some text to ... 
+        
+        pippo
+        pippo
+        pippo
+        */
         public function actionCreate()    
         {        
             $model = new Room();        
