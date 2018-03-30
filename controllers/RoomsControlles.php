@@ -12,6 +12,12 @@
         pippo
         pippo
         */
+
+        public function actionIndex () 
+        {
+            echo "Just a controller for rooms";    
+        }
+
         public function actionCreate()    
         {        
             $model = new Room();        
