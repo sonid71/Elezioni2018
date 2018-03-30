@@ -5,6 +5,8 @@
     use app\models\Room;
     class RoomsController extends Controller 
     {    
+
+        /* some text to ... */
         public function actionCreate()    
         {        
             $model = new Room();        
